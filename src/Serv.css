@@ -1,0 +1,22 @@
+.card{
+    margin: 100px;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+}
+.card h1{
+    font-size: 50px;
+}
+.card .colum1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card .colum1 .cot #img{
+    width: 60px;
+    height: 60px;
+}
+.card .colum1 .cot p{
+    font-size: 14px;
+    font-family: Arial;
+}
